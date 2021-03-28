@@ -16,6 +16,7 @@ class UI {
     timerSet;
     alarm;
     audio;
+    //refactor this UI class by creating a new updateDOM class that interacts with the DOM
 
     constructor(timer) {
         this.timer = timer;
@@ -83,6 +84,7 @@ class UI {
 
         this.update.addEventListener("click", () => {
             this.setNewTime();
+            this.pauseTimer();
         })
 
         document.addEventListener("keydown", (e) => {
@@ -132,7 +134,7 @@ class UI {
     }
 
     setNewTime = () => {
-        this.timer.updateTimes(Number(this.setWorkTime), Number(this.setBreakTime));
+        this.timer.updateTimes(Number(this.setWorkTime.value), Number(this.setBreakTime.value));
         this.resetTimer();
     }
 
