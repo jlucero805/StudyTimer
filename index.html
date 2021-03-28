@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Pomodoro Timer</title>
+</head>
+<body id="bod">
+    
+    <!--Body-->
+    <div id="nameContainer"><p id="name">Pomodoro Study Timer</p></div>
+    <div id="container">
+        <div id="timerContainer">
+            <p id="minutes">00</p>
+            <p id="timerSeparator">:</p>
+            <p id="seconds">00</p>
+        </div>
+        <div id="buttonContainer">
+            <button id="start">start</button>
+            <button id="pause">pause</button>
+            <button id="reset">reset</button>
+            <button id="work">work</button>
+            <button id="break">break</button>
+            <button id="instructions">instructions</button>
+            <div id="updateContainer">
+                <div id="setWorkTime"><p id="setWorkTimeText">set work time:</p><input type="number" id="setWorkTimeInput"></div>
+                <div id="setBreakTime"><p id="setBreakTimeText">set break time:</p><input type="number" id="setBreakTimeInput"></div>
+                <button id="update">update</button>
+            </div>
+        </div>
+        <p id="status">Work Time!</p>
+    </div>
+    <!--/Body-->
+
+    <!--Scripts-->
+    <script src="Timer.js"></script>
+    <script src="UI.js"></script>
+    <script src="app.js"></script>
+    <!--/Scripts-->
+</body>
+</html>

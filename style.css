@@ -1,0 +1,164 @@
+body {
+    background-color: green;
+}
+
+#nameContainer {
+    position:absolute;
+    margin: auto;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 5%;
+}
+
+#name {
+    font-size: x-large;
+}
+
+#container {
+    position: relative;
+    margin: auto;
+    border: 1px solid black;
+    min-width: 730px;
+    max-width: 730px;
+    min-height: 350px;
+    max-height: 350px;
+    top: 50px;
+}
+
+#buttonContainer {
+    position: relative;
+    border-left: 1px solid black;
+    min-width: 130px;
+    max-width: 130px;
+    min-height: 350px;
+    max-height: 350px;
+    left: 600px;
+}
+
+#start, #pause, #reset, #instructions, #work, #break {
+    position: absolute;
+    min-width: 130px;
+    max-width: 130px;
+    min-height: 30px;
+    max-height: 30px;
+    border: none;
+    border-bottom: 1px solid black;
+    background-image: none;
+    box-shadow: none;
+    background-color: rgba(240, 248, 255, 0);
+}
+
+#start {
+    
+}
+
+#pause {
+    top: 30px;
+}
+
+#reset {
+    top: 60px;
+}
+
+#instructions {
+    top: 90px;
+}
+
+#work {
+    top: 120px;
+}
+
+#break {
+    top: 150px;
+}
+
+#updateContainer {
+    position: absolute;
+    font: -webkit-small-control;
+    min-width: 130px;
+    max-width: 130px;
+    min-height: 200px;
+    max-height: 200px;
+    top: 180px;
+}
+
+#setWorkTimeText {
+    position: absolute;
+    left: 25px;
+}
+
+#setBreakTimeText {
+    position: absolute;
+    left: 25px;
+    top: 55px;
+}
+
+#setWorkTimeInput {
+    position: absolute;
+    top: 35px;
+    left: 20px;
+    min-width: 80px;
+    max-width: 80px;
+    border: none;
+    border: 1px solid black;
+    background-color: rgba(240, 248, 255, 0);
+}
+
+#setBreakTimeInput {
+    position: absolute;
+    top: 95px;
+    left: 20px;
+    min-width: 80px;
+    max-width: 80px;
+    border: none;
+    border: 1px solid black;
+    background-color: rgba(240, 248, 255, 0);
+}
+
+#update {
+    position: absolute;
+    background-color: rgba(127, 255, 212, 0);
+    border: none;
+    border: 1px solid black;
+    top: 130px;
+    left: 35px;
+}
+
+#timerContainer {
+    position: absolute;
+    border: 1px solid black;
+    min-width: 525px;
+    max-width: 525px;
+    min-height: 150px;
+    max-height: 150px;
+    left: 37.5px;
+    top: 37.5px;
+}
+
+#minutes {
+    position: absolute;
+    left: 95.25px;
+    top: -90px;
+    font-size: 100px;
+}
+
+#seconds {
+    position: absolute;
+    left: 350.75px;
+    top: -90px;
+    font-size: 100px;
+}
+
+#timerSeparator {
+    position: absolute;
+    left: 262.5px;
+    top: -90px;
+    font-size: 100px;
+}
+
+#status {
+    position: absolute;
+    top: 120px;
+    left: 80px;
+    font-size: 90px;
+}
