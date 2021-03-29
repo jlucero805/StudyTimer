@@ -51,7 +51,6 @@ class UI {
         this.audio = new Audio("beep.mp3");
 
         this.addEvents();
-        
     }
 
     addEvents = () => {
